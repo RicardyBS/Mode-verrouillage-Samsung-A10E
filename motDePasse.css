@@ -1,0 +1,102 @@
+/*Style generale*/
+body{
+  background: url("../img/9d7738404fab6bfe16577c7349ca8826.jpg");
+  color:white;
+  font-family:sans-serif;
+  user-select: none;
+  min-height:610px;
+  display:flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+div{
+  font-size:28px;
+  font-weight:430;
+}
+span{
+  display:block;
+  margin:0.7px 0;
+  width:33px;
+  text-align:center;
+}
+.lettreQuiNeServePas{
+  color: lightgrey ;
+  font-size: 13px;
+  /*font-variant:normal;*/
+}
+.range,.dernierRange{
+  display:flex;
+  justify-content: space-around;
+  text-align: center;
+  margin:7px 0;
+}
+
+
+#erreur{
+  display:none;
+  transform:translateY(-50px);
+  font-size :17px;
+  text-align: center;
+}
+.lettre span{
+  color:#ccc;
+  font-size: 13px;
+}
+/*stle particuliers*/ 
+.dernierRange span{
+  min-height:18px;
+  width:33px;
+}
+#textGeneral{
+  margin-bottom:10px;
+}
+#text1{
+  text-align:center;
+  font-size:18px;
+}
+#text2{
+  text-align: center;
+  color:rgba(12,12,12,0.4);
+  font-size:12px;
+  font-weight: 500;
+}
+
+#motDePasse{
+  margin-bottom: 10px;
+  border-radius:30px;
+  border:none;
+  width:100%;
+  text-align:center;
+  line-height:24px;
+  font-size: 40px;
+  background: rgba(55,55,55,0.3);
+  color:white;
+}
+#motDePasse:focus{
+  outline:none;
+}
+
+#urgence{
+  width:110px;
+  margin:auto;
+  padding:8px 12px;
+  border:1px solid darkgrey;
+  font-weight:bold;
+  border-radius:20px;
+  font-size:15px;
+  margin-top:30px;
+}
+
+/*Une petite animation */
+/*non termine */
+.essai{
+  transition:background 0.4s ease-in-out;
+  border-radius:50px;
+  padding:0 0 0 9px;
+  width:40px;
+  min-height: 18px;
+  text-align: center;
+}
+.essai:hover{
+  background-color: rgba(1,1,1,0.1);
+}
