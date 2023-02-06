@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="motDePasse.css"/>
+  <title></title>
+</head>
+
+<body>
+  <div id="corps">
+ <div id="textGeneral">
+  <div id="text1">Entrer votre code PIN</div>
+  <div id="text2">Votre code PIN contient au moins 4 chiffres .</div>
+  </div>
+  <div id="erreur">Code PIN saisie incorrect</div>
+<input id="motDePasse" type="password" name="motDePasse" maxlength=16 readonly/>
+
+  
+  <div class="range">
+    <div class="essai">
+     <span>1</span>
+    </div>
+    <div class="essai">
+      <span>2</span>
+     <span id="special" class="lettreQuiNeServePas">ABC</span>
+   </div>
+    
+    <div class="essai">
+      <span>3</span>
+      <span class="lettreQuiNeServePas">DEF</span>
+    </div>
+  </div>
+  
+  <div class="range">
+    <div class="essai">
+      <span>4</span>
+      <span class="lettreQuiNeServePas">GHI</span>
+    </div>
+    <div class="essai">
+      <span>5</span>
+      <span class="lettreQuiNeServePas">JKL</span>
+    </div>
+    <div class="essai">
+      <span>6</span>
+      <span class="lettreQuiNeServePas">NNO</span>
+    </div>
+  </div>
+   
+ 
+ 
+
+  <div class='range'>
+    <div class="essai">
+      <span>7</span>
+      <span class="lettreQuiNeServePas">PQRS</span>
+    </div>
+    <div class="essai">
+      <span>8</span>
+      <span class="lettreQuiNeServePas">TUV</span>
+    </div>
+    <div class="essai">
+      <span>9</span>
+      <span class="lettreQuiNeServePas">WXYZ</span>
+    </div>
+  </div>
+  
+  <div class="dernierRange">
+    <div class="essai">
+     <span id="del">del</span>
+    </div>
+    <div id="zero" class="essai">
+      <span>0</span>
+    </div>
+    <div class="essai">
+      <span id="enter">Ok</span>
+    </div>
+  </div>
+
+
+<div id='urgence'>Appel d'urgence</div>
+</div>
+<script src='motDePasse.js'></script>
+</body>
+
+</html>
